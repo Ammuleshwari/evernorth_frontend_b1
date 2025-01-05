@@ -1,6 +1,5 @@
 {
   "name": "frontend",
-  "homepage": "https://Ammuleshwari.github.io/evernorth_profile/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@react-google-maps/api": "^2.20.3",
